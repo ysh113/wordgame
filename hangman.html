@@ -5,21 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hangman</title>
+    
 </head>
+<link rel="stylesheet" href="hangman.css"> 
 <body>
-    <h3>
-        answer: <input type="text" id="guess">
-    </h3>  
-    <input type="button" value="guess" onclick="guess()">
-    <input type="button" value="reset" onclick="reset()" id="reset">
+ <h3>Word Game!</h3>
+ <p id="intend">Please press the restart button if the game doesn't work as intended</p>
+ <br>
+ <p id="hint"></p>
+ <p>
+   <span id="answer">puzzle loading...</span>
+</p>
+ <br>
+ <br>
+ <input type="text" id="guess">
+ <input type="button" value="Guess" onClick="input()" id="button">
+ <input type="button" value="Next question" onClick="nextQuestion()" id="button">
+ <input type="button" value="Reveal" onClick= "revealWord()" id="button">
+ <input type="button" value="Restart" onClick="reset()" id="button">
+    
+ <p id="message"></p>
+ 
 
-    <p id="message"></p>
-   
-
-    <p>puzzle</p> <span id="answer"></span>
 
 
+
+
+
+
+    <script src="hangman.js"></script>
+    <script src="questions.js"></script>
+    
+    <!-- <script src="questions.js"></script> -->
 </body>
 
-<script src="hangman.js"></script>
+
 </html>
