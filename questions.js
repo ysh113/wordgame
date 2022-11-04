@@ -128,5 +128,9 @@ let questions = [
  {
     word: "camel",
     hint: "An animal that lives in the desert. Its got humps on their back"
+ },
+ {
+  word: "ostrich",
+  hint: "A large flightless bird"
  }
 ]
