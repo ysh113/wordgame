@@ -11,18 +11,25 @@
 <body>
  <h3>Word Game!</h3>
  <p id="intend">Please press the restart button if the game doesn't work as intended</p>
+ <p>Click next question to begin!</p>
  <br>
+ <div id="hintBox">
  <p id="hint"></p>
+</div>
  <p>
    <span id="answer">puzzle loading...</span>
 </p>
  <br>
  <br>
  <input type="text" id="guess">
+ <br>
+ <br>
+ <div id="mainButtons">
  <input type="button" value="Guess" onClick="input()" id="button">
  <input type="button" value="Next question" onClick="nextQuestion()" id="button">
  <input type="button" value="Reveal" onClick= "revealWord()" id="button">
  <input type="button" value="Restart" onClick="reset()" id="button">
+</div>
     
  <p id="message"></p>
  
