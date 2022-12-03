@@ -1,10 +1,13 @@
+body{
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+}
+
+
+
 #intend{
     font-weight: bold;
 }
-/* 
-*{
-    background-color: #F7CAC9;
-} */
+
 
 #button{
     border: 2px solid #fff ;
@@ -21,3 +24,13 @@
 #hint{
     font-weight: bold;
 }
+
+/* @media(max-width:1200px){
+    #mainButtons{
+        width: 100%;
+    }
+    #hintBox{
+        width: 100%;
+        float: none;
+    }
+} */
